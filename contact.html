@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bob Nath">
+    <meta name="description"  content="contact information for Selnat Enterprise">
+    <title>Contact Us - SP</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Contact Us</h1>
+        <nav class="header__nav navbar">
+        <ul class="header__ul">
+        <li>
+            <a href="./index.html">Home</a>
+        </li>   
+        <li>
+            <a href="./hours.html">Hour</a>
+        </li>
+        <li>
+            <a href="./about.html">About</a>
+        </li>
+    </ul>
+</nav>
+</header>
+  <section class="hero">
+    <figure>
+<img src="./contact pastry.jpg" alt="Selnat Products" width="1000" height="649">
+        <figcaption class="offscreen">
+            Selnat Pastry
+        </figcaption>
+    </figure>
+</section>
+<main class="main bottom-container">
+    <article class="main__article">
+        <h2>Our Location</h2>
+        <address>
+            Camp, Abeokuta, Ogun State.
+            <br>
+            Phone: <a href="tel: +2347088071833">+234-708-807-1833</a>
+        </address>
+    </article>
+    <hr>
+    <article class="main__article contact">
+        <h2 class="contact__h2">Our Contact Form</h2>
+        <form action="//https://httpbin.org/get" method="get" class="contact__form">
+            <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send Us A Message</legend>
+            <p class="contact__p">
+                <label for="name" class="contact__label">Name:</label>
+                <input class="contact__input" type="text" name="name" id="name" placeholder="your name" required >
+            </p>
+            <p class="content__p">
+                <label for="email" class="contact__label">Email:</label>
+                <input class="contact__input" type="email" name="email" id="email" placeholder="your email" required >
+            </p>
+            <p class="contact__p">
+                <label for="message" class="contact__label">Your Message:</label>
+                <br>
+                <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset>
+        <button class="contact__button" type="submit">Send</button>
+        <button class="contact__button" type="reset">Reset</button>
+        </form>
+    </article>
+</main>
+<footer class="footer">
+    <p>
+        <span class="nowrap">
+            Copyright&copy;
+        </span>
+        <span class="nowrap">Selnat Pastry</span>
+    </p>
+</footer>
+</body>
+<script src="main.js"></script>
+</html>
